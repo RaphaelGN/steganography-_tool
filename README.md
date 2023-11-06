@@ -1,15 +1,11 @@
-# appa
+# stegano
 
 ![alt text](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.secion.de%2Fen%2Fblog%2Fblog-details%2Fsteganography-how-secret-code-in-media-files-becomes-a-threat-to-it-security&psig=AOvVaw1WCPgpMeocpFkWAsPnYtYp&ust=1699351953404000&source=images&cd=vfe&opi=89978449&ved=0CA8QjRxqFwoTCLDDicCRr4IDFQAAAAAdAAAAABAD)
 
-Appa is an educational steganography tool aimed at teaching the user how steganography works by outputting changes made to an image as binary data is injected into it. This was completed at a hackathon in 2019.
+stegano is an educational steganography tool aimed at teaching the user how steganography works by outputting changes made to an image as binary data is injected into it.
 
 ### prereqs
-
-[Pillow](https://pillow.readthedocs.io/en/stable/)
-
 `pip3 install Pillow`
-
 ### usage 
 
 `python3 stegano.py [-h] [-d] [-e message] image`
@@ -22,7 +18,7 @@ python stegano.py ./_news.png -d
 
 ### encoding 
 
-Appa takes in an image and some text and injects the text into the image by modifying the individual pixels. 
+stegano takes in an image and some text and injects the text into the image by modifying the individual pixels. 
 
 A pixel looks like this:
 
@@ -54,7 +50,7 @@ Now our pixels will look like this after a single "A" has been injected:
 
 ### decoding 
 
-Decoding should now be pretty trivial. If we look at the steps above we can possibly extract some text by reversing the algorithm. Appa reads up to the first 9th value in a set of pixels that is odd and then begins to attempt decoding. It will figure out what binary data is represented by these pixels by knowing all even numbers represent a 0 and all odd numbers represent a 1, then translating that to it's correct ASCII value. 
+Decoding should now be pretty trivial. If we look at the steps above we can possibly extract some text by reversing the algorithm. stegano reads up to the first 9th value in a set of pixels that is odd and then begins to attempt decoding. It will figure out what binary data is represented by these pixels by knowing all even numbers represent a 0 and all odd numbers represent a 1, then translating that to it's correct ASCII value. 
 
 
 ### before & after

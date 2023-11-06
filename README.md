@@ -1,6 +1,6 @@
 # stegano
 
-![alt text](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.secion.de%2Fen%2Fblog%2Fblog-details%2Fsteganography-how-secret-code-in-media-files-becomes-a-threat-to-it-security&psig=AOvVaw1WCPgpMeocpFkWAsPnYtYp&ust=1699351953404000&source=images&cd=vfe&opi=89978449&ved=0CA8QjRxqFwoTCLDDicCRr4IDFQAAAAAdAAAAABAD)
+![alt text](https://www.secion.de/assets/images/c/Steganographie_Malware-53e7fdcd.jpeg)
 
 stegano is an educational steganography tool aimed at teaching the user how steganography works by outputting changes made to an image as binary data is injected into it.
 
@@ -61,5 +61,5 @@ Here's an image before encoding:
 
 This image has around 83,000 pixels. After modifying about 81,000 of those pixels to inject 27,000 letters into the image, this is what the image looks like:
 
-![alt text](./encoding_new.png)
+![alt text](./_new.png)
 

@@ -1,6 +1,9 @@
-### **stegano**
-
+### **stegano** 
+🚀
 ![alt text](https://www.secion.de/assets/images/c/Steganographie_Malware-53e7fdcd.jpeg)
+
+Steganography, the age-old art of concealing information, often remains obscure to the general public, yet it plays a crucial role in today's digital world. The term "steganography" is derived from the Greek words "steganos" (hidden) and "graphein" (to write). It describes the art of hiding secret information within seemingly ordinary data, such as images, videos, audio files, or even text, in a way that remains imperceptible to anyone without the key to extract it.
+
 
 stegano is an educational steganography tool aimed at teaching the user how steganography works by outputting changes made to an image as binary data is injected into it.
 

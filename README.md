@@ -1,4 +1,4 @@
-# stegano
+### **stegano**
 
 ![alt text](https://www.secion.de/assets/images/c/Steganographie_Malware-53e7fdcd.jpeg)
 
@@ -12,6 +12,7 @@ stegano is an educational steganography tool aimed at teaching the user how steg
 
 # example 
 python stegano.py ./encoding.jpg -e Hello_here_this_is_my_message 
+
 python stegano.py ./_news.png -d
 
 ## how it works 
